@@ -149,6 +149,11 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.brain{
-    margin: 120px;
+.main-brain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}.main-brain-img img{
+    width: 600px;
 }
