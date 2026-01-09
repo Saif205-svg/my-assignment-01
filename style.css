@@ -1,0 +1,154 @@
+/* <--common class--> */
+.container{
+    margin: 0 auto;
+    max-width:80% ;
+    width: 1360px;
+
+}
+*{
+    font-family: "Work Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:rgba(255, 255, 255, 1);;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 120px;
+    max-width: 1600px;
+}
+.blog{
+    display: flex;
+    color: var(--#000000, rgba(0, 0, 0, 1));
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 32px;
+}
+.btn a{
+    color: rgba(255, 255, 255, 1);
+    font-style: Semi Bold;
+    font-size: 16px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background:#30B868;
+    text-decoration: none;
+} .btn a:hover{
+    color: white;
+    background-color: black;
+}
+.hero-parent{
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+    height: 100vh;
+    color: white;
+}
+.btn-1{
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero-container h1{
+    font-size: 72px;
+    font-weight: 700;
+} .hero-container h1 span{
+    color: #30B868;
+}
+.hero-btn{
+    margin-top: 32px;
+}
+.btn-2{
+    border-radius: 6px;
+    background :#30B868;
+    padding: 12px 16px 12px 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+} .btn-2:hover{
+    background-color:white ;
+    color: black;
+}
+ .btn-3{
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background: none;
+    border: 2px solid white;
+    border-radius: 6px;
+} .btn-3:hover{
+    color: white;
+    background: #30B868;
+}
+.brain-text{
+    margin: 30px 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+.brain-text p{
+    color: #627382;
+    font-size: 16px;
+}
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+} .notes-content{
+    max-width: 322px;
+    height: 210px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.079);
+    background: rgb(248, 248, 248);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.079);
+    background: rgb(248, 248, 248);
+} .brain-card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      gap: 24px;
+
+}
+.notes-content img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 14px;
+    margin: auto;
+}
+.notes-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.notes-content p{
+    color: 627382;
+    font-size: 16px;
+    font-weight: 400;
+}
+.brain{
+    margin: 120px;
+}
